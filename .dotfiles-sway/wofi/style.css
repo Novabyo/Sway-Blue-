@@ -1,0 +1,37 @@
+window {
+    background-color: rgba(14, 22, 33, 0.85);  /* soft blue-black with transparency */
+    border-radius: 6px;
+    padding: 6px;
+    min-width: 300px;
+    min-height: 200px;
+    font-family: "Maple Mono";
+    font-size: 14px;
+    color: #E6EDF3;
+}
+
+listview {
+    spacing: 2px;
+}
+
+listview row {
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+listview row:selected {
+    background-color: rgba(108, 160, 220, 0.85);  /* selection highlight */
+    color: #0B0F14;
+}
+
+header {
+    padding: 4px 8px;
+    background-color: rgba(14, 22, 33, 0.85);
+    color: #E6EDF3;
+}
+
+scrollbar {
+    width: 4px;
+    background-color: rgba(14, 22, 33, 0.85);
+    handle-color: rgba(108, 160, 220, 0.85);
+    border-radius: 2px;
+}
