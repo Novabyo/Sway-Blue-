@@ -26,7 +26,7 @@ include /etc/sway/config-vars.d/*
 # This is commented in Debian, because the Sway wallpaper files are in a separate
 # package `sway-backgrounds`. Installing this package drops a config file to
 # /etc/sway/config.d/
-  output * bg /home/marina/Pictures/wallpapers/1705528857437421.jpg fill
+  output * bg ~/.config/sway/wallpapers/main.jpg fill
 #
 # Example configuration:
 #
